@@ -1,11 +1,11 @@
 import { Banner } from "./components/Banner";
-import { CalculatorForm } from "./components/CalculatorForm";
+import { Calculator } from "./components/Calculator";
 
 export const App = () => {
   return (
     <div className="container">
       <Banner />
-      <CalculatorForm />
+      <Calculator />
     </div>
   );
 };
